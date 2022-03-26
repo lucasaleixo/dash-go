@@ -87,7 +87,7 @@ export default function UserList() {
                                 colorScheme="purple"
                                 leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                               >
-                                Editar
+                                Edit
                               </Button>
                             </Td>
                           </>}
@@ -97,7 +97,12 @@ export default function UserList() {
                 </Tbody>
               </Table>
 
-              <Pagination />
+              <Pagination 
+                totalCountOfRegisters={200}
+                currentPage={5}
+                onPageChange={() => { }} 
+                registersPerPage={10}              
+              />
             </>
           )}
         </Box>
