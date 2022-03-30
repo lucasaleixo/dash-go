@@ -103,7 +103,7 @@ export default function UserList() {
                                 colorScheme="purple"
                                 leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                               >
-                                Edit
+                                Editar
                               </Button>
                             </Td>
                           </>}
